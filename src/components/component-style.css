@@ -1,0 +1,33 @@
+/* Padding from top for nav */
+
+.home-bg {
+  background-image: url("../img/frontBg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.gallery-card {
+  width: 320px;
+}
+
+.tp {
+  margin: 124px auto 0 auto;
+  max-width: 980px;
+}
+
+.test {
+  margin-top: 124px;
+}
+
+.c-size {
+  width: 200px;
+}
+@media screen and (max-width: 992px) {
+  .c-size {
+    width: auto;
+  }
+}
